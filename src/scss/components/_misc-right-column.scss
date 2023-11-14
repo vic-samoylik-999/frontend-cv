@@ -1,0 +1,57 @@
+.right-column {
+    max-width: 360px;
+    &__experience {
+        
+        &-item {
+            display: flex;
+            align-items: baseline;
+            column-gap: .7rem;
+            margin-bottom: 1rem;
+        }
+        &-list {
+            display: flex;
+            flex-direction: column;
+            row-gap: .7rem;
+            &-date {
+                position: relative;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    background-color: #000;
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    top: 15px;
+                    left: -13px;
+                }
+                &-last {
+                    list-style-type: none;
+                }
+            }
+            & li {
+                list-style-type: disc;
+                margin-left: 1rem;
+            }
+        }
+    }
+    &__contacts {
+
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: .5rem;
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            flex: 0 0 100%;
+        }
+    }
+
+}
+
+.dots {
+    border-bottom: 2px dotted #ababab;
+    flex: 1 1 10%;
+}

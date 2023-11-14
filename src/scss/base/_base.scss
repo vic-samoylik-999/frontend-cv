@@ -16,19 +16,14 @@ body {
 	margin: 0 auto;
 }
 
-.misc {
-	padding: 2rem 0;
-	&__row {
-		display: flex;
-		justify-content: space-between;
-	}
-}
-
 .label {
 	font-family: var(--font-accent);
 	text-transform: uppercase;
 	font-size: 1.7rem;
 	margin-bottom: 1rem;
+	&-right {
+		text-align: right;
+	}
 }
 .sublabel {
 	font-weight: 600;
@@ -40,5 +35,12 @@ body {
 	padding-left: 1.2rem;
 	&-item {
 		list-style-type: disc;
+	}
+}
+
+a {
+	color: #000;
+	&:hover {
+		text-decoration: underline;
 	}
 }

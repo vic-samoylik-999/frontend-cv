@@ -1,0 +1,9 @@
+.misc {
+
+    &__row {
+        padding-top: 3rem;
+        display: flex;
+        justify-content: space-around;
+        column-gap: 3.5rem;
+    }
+}
