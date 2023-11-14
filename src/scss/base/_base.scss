@@ -33,6 +33,9 @@ body {
 
 .list {
 	padding-left: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: .4rem;
 	&-item {
 		list-style-type: disc;
 	}

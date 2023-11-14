@@ -12,6 +12,11 @@
             display: flex;
             flex-direction: column;
             row-gap: .7rem;
+            & ul {
+                display: flex; 
+                flex-direction: column;
+                row-gap: .3rem;
+            }
             &-date {
                 position: relative;
                 &::before {
@@ -26,6 +31,17 @@
                 }
                 &-last {
                     list-style-type: none;
+                    position: relative;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                        background-color: #000;
+                        top: 35%;
+                        left: -30%;
+                    }
                 }
             }
             & li {
