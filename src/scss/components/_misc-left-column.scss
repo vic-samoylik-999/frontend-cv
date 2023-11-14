@@ -1,0 +1,26 @@
+.left-column {
+
+    &__scholarship {
+        display: flex;
+        flex-direction: column;
+        row-gap: .5rem;
+        margin-bottom: 2rem;
+    }
+    &__label {
+        font-family: var(--font-accent);
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+    &__sublabel {
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    &__text {}
+    &__list {
+        padding-left: 1.2rem;
+        &-items {
+            list-style-type: disc;
+        }
+    }
+}
