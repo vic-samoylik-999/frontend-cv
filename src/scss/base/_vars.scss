@@ -11,4 +11,14 @@
     --laptop-size: 1199px;
 	--tablet-size: 959px;
 	--mobile-size: 599px;
+
+	--border-color: #000;
+	--link-color: #000;
+}
+
+.dark {
+	--page-bg: #212120;
+	--text-color: #f3f3f3;
+	--border-color: #cfcfcf;
+	--link-color: #fefefe;
 }
